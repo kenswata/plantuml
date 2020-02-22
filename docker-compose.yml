@@ -1,0 +1,7 @@
+version: '3.2'
+services:
+  app:
+    image: plantuml/plantuml-server:jetty
+    container_name: plantuml_app
+    ports:
+      - '9000:8080'
